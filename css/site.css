@@ -1,6 +1,10 @@
 /* Photo by <a href="https://unsplash.com/@5tep5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Popov</a> on <a href="https://unsplash.com/s/photos/grid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
 
+   body > main {
+       margin: 75px 0 20px 0;
+   }
+
 .home-bg {
     background: url('/img/boot-bg.jpg');
     width: 100%;
@@ -28,7 +32,6 @@ img {
 }
 
 .min-height {
-    margin-top: 75px;
     min-height: 70vh;
 }
 
