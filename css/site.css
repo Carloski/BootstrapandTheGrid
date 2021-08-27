@@ -1,6 +1,7 @@
 /* Photo by <a href="https://unsplash.com/@5tep5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Popov</a> on <a href="https://unsplash.com/s/photos/grid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
 
+
 main>.container-fluid {
     padding-top: 30px;
 }
@@ -17,6 +18,7 @@ body > main {
     background-position: center;
     background-attachment: fixed;
 }
+
 
 .mt-5 {
     color: hsl(0, 7%, 97%);
@@ -41,5 +43,21 @@ a {
 
 .min-height {
     min-height: 70vh;
+}
+
+/* CONTACT PAGE */
+
+.form-container {
+    padding: 1.2rem 1.6rem;
+    background: #fff;
+}
+
+.home-bg-2 {
+    background: url('/img/bg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 

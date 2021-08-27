@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/css/site.css">
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 home-bg-2">
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
@@ -52,44 +52,55 @@
                         <a class="nav-link" href="Grid8.html">Grid 8</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Grid9.html">Grid 9</a>
+                        <a class="nav-link" href="Grid9.html">Grid 9</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact me</a>
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact me</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <main class="flex-shrink-0">
-        <div class="container-fluid h-100 min-height">
-            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-2 h-100 gy-3">
-                <div class="col col-md-12">
-                    <div class="bg-secondary text-light h-100 p-2">
-                        <h5>One</h5>
+        <div class="container">
+            <div class="form-container card">
+                <h1 class="text-center">Contact Me</h1>
+                <form class="row g-3 mt-2">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">First Name</label>
+                        <input type="name" class="form-control p-2" id="name" placeholder="First name">
                     </div>
-                </div>
-                <div class="col-6 col-md-3 order-last">
-                    <div class="bg-dark text-light h-100 p-2">
-                        <h5>Two but ordered last</h5>
+
+                    <div class="col-md-6">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input type="name" class="form-control p-2" id="last-name" placeholder="Last name">
                     </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="bg-secondary text-light h-100 p-2">
-                        <h5>Three</h5>
+
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control p-2" id="email" placeholder="Email">
                     </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="bg-secondary text-light h-100 p-2">
-                        <h5>Four</h5>
+
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone (optional)</label>
+                        <input type="phone" class="form-control p-2" id="phone" placeholder="phone">
                     </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="bg-secondary text-light h-100 p-2">
-                        <h5>Five</h5>
+
+                    <div class="col-12">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control p-2" id="subject" placeholder="Subject">
                     </div>
-                </div>
+
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea name="message" id="message" class="form-control" cols="30" rows="2"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-2">
+                        <input type="button" class="btn btn-primary" value="Submit">
+                    </div>
+
+                </form>
             </div>
 
         </div>
