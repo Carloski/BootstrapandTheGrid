@@ -1,7 +1,11 @@
 /* Photo by <a href="https://unsplash.com/@5tep5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Popov</a> on <a href="https://unsplash.com/s/photos/grid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    */
 
-   body > main {
+main>.container-fluid {
+    padding-top: 30px;
+}
+
+body > main {
        margin: 75px 0 10px 0;
    }
 
