@@ -47,10 +47,6 @@ a {
 
 /* CONTACT PAGE */
 
-.form-container {
-    padding: 1.2rem 1.6rem;
-    background: #fff;
-}
 
 .home-bg-2 {
     background: url('/img/bg.jpg');
@@ -59,5 +55,10 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.card {
+    background: #f3f3f3;
+    padding: 1.2rem;
 }
 
