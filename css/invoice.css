@@ -6,6 +6,13 @@
 
 }
 
-.trow {
-    background-color: rgb(239, 248, 239);
+img {
+    width: 100%;
+}
+
+.invoice {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
